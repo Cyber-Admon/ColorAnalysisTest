@@ -134,7 +134,7 @@ def probability_of_red():
 # Creating table and saving the color and frequencies
 def color_table():
     # Defining the connection string
-    conn_string = "host='localhost' dbname='test' user='postgres' password='Olayiwola123'"
+    conn_string = "host='localhost' dbname='test' user='postgres' password='localhost@password/test'"
 
     # Establishing a connection to the database
     conn = psycopg2.connect(conn_string)
